@@ -31,7 +31,7 @@ type config struct {
 func main() {
 	cfg := config{
 		Years:        10,
-		Organization: "gencerts1",
+		Organization: "gencerts",
 		ExtraHosts:[]string{"106.75.147.184","106.75.214.209"},
 	}
 	parser := flags.NewParser(&cfg, flags.Default)
